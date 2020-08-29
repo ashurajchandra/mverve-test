@@ -5,9 +5,96 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
+  box-sizing: border-box;
+  border-style:solid;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-bar {
+  background-color: #00008b;
+  height: 50px;
+  width: 100%;
 }
+.nav-heading
+{
+  color:white;
+  margin-left:40%;
+  margin-right: 40%;
+  margin-top: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.back-button{
+  color:white;
+  font-weight: 500;
+  width: 50px;
+  background-color:black;
+  padding:4px;
+  font-size:20;
+  margin-left: 10px;
+  
+}
+.movie-list{
+ margin-left: 300px;
+  width:50%;
+  
+}
+
+.button{
+  padding:3px;
+ font-size:20px;
+  height:30px; 
+  background-color:#00008B;
+  text-shadow: none;
+  float:right;
+}
+
+.button:hover{
+  color:#ffc0cb;
+}
+
+.gener{
+  /* background-color:#808080; */
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: 550px;
+ 
+}
+
+.genre:hover{
+  color:#ff0000;
+}
+
+.details-heading{
+  background-color: grey;
+  font-weight: 800;
+}
+
+.movie-about{
+  font-weight: 600;
+}
+.description{
+  background-color: grey;
+}
+h1{
+  background:darkgrey;
+}
+
+.details{
+  font-weight: 400;
+  background-color: grey;
+  
+}
+.movie-about{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/* .movie-containor{
+  
+
+} */
